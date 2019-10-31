@@ -18,6 +18,8 @@ use App\Book;
 //Route::get('/book', 'bookController@index');
 //Route::delete('/book/{book}', 'bookController@delete');
 
+URL::forceScheme('https');
+
 Route::post('/', 'calendarController@index');
 Route::get('/', 'calendarController@index');
 Route::post('/{year}/{month}/{day}', 'calendarController@daydata');
@@ -25,3 +27,4 @@ Route::post('/{year}/{month}/{day}', 'calendarController@daydata');
 Route::post('/regist', 'calendarController@regist');
 
 Route::post('/update', 'calendarController@update');
+

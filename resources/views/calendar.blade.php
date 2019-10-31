@@ -51,7 +51,7 @@
 
 <div id="modal-content" style="display:none;">
     <div class="panel panel-default" style="display:flex;">
-        <img src="{{ secure_asset('/mito.jpg') }}" class="circle" style="margin: 10px 20px 10px 20px">
+        <img src="{{ asset('/mito.jpg') }}" class="circle" style="margin: 10px 20px 10px 20px">
         <div class="serif">
         {{ $calendar[1]['month'] }}月{{ $calendar[1]['day'] }}日の目標の入力だね！
         がんばろうね！</div>
@@ -112,7 +112,7 @@
 <div id="modal-content-update" style="display:none;">
 
 <div class="panel panel-default" style="display:flex;">
-        <img src="{{ secure_asset('/mito.jpg') }}" class="circle" style="margin: 10px 20px 10px 20px">
+        <img src="{{ asset('/mito.jpg') }}" class="circle" style="margin: 10px 20px 10px 20px">
         <div class="serif">
         {{ $calendar[1]['month'] }}月{{ $calendar[1]['day'] }}日の達成度を0~100で入力しよう！
         できたかな？</div>
