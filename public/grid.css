@@ -1,9 +1,3 @@
-.day{
-    width: 14.28571%;
-    float: left;
-    text-align: center;
-    padding: 4rem 0;
-}
 
 .wrapper {
     position: relative;
@@ -153,3 +147,30 @@
     border-right: 14px solid #555;
     z-index: 1;
   }
+
+
+@media screen and (max-width: 479px) { /*スマホ*/
+    .media-size {
+        width: 100%;
+    }
+
+    .day{
+        width: 14.28571%;
+        float: left;
+        text-align: center;
+        padding: 1.5rem 0;
+    }
+}
+
+@media screen and (min-width: 480px) {  /*pc*/
+    .media-size {
+        width: 60%;
+    }
+
+    .day{
+        width: 14.28571%;
+        float: left;
+        text-align: center;
+        padding: 4rem 0;
+    }
+}

@@ -3,7 +3,7 @@
 @section('content')
 
 
-<div class="container" style="width: 60%">
+<div class="container media-size">
 
     <div class="panel panel-default" style="margin: auto;">
         
