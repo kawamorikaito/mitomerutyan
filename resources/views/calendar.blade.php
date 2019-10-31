@@ -57,7 +57,7 @@
         がんばろうね！</div>
     </div>
 
-        <form action="/calendar/regist" method="POST" class="form-horizontal">
+        <form action="/regist" method="POST" class="form-horizontal">
 			{{ csrf_field() }}
 
 			<div class="form-group">
@@ -118,7 +118,7 @@
         できたかな？</div>
     </div>
 
-        <form action="/calendar/update" method="POST" class="form-horizontal">
+        <form action="/update" method="POST" class="form-horizontal">
 			{{ csrf_field() }}
 
 						<!-- Book Name -->
